@@ -23,15 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Be
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "CreationalDesignPatterns\FactoryMethod\FactoryMethod.csproj", "{20D64805-7F91-4323-9247-E7C43F9C971F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "CreationalDesignPatterns\Abstract Factory\Abstract Factory.csproj", "{AE22CE56-0D58-4BB8-AF62-097F3622F812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "CreationalDesignPatterns\Abstract Factory\Abstract Factory.csproj", "{AE22CE56-0D58-4BB8-AF62-097F3622F812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "CreationalDesignPatterns\Prototype\Prototype.csproj", "{E9458A54-F816-4DB4-BB8F-841762D8F7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "CreationalDesignPatterns\Prototype\Prototype.csproj", "{E9458A54-F816-4DB4-BB8F-841762D8F7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "CreationalDesignPatterns\Singleton\Singleton.csproj", "{44CEB5C0-D022-4BEB-9865-FF0F3148D1F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "CreationalDesignPatterns\Singleton\Singleton.csproj", "{44CEB5C0-D022-4BEB-9865-FF0F3148D1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "BehavioralDesignPatterns\ConsoleApp1\Strategy.csproj", "{199ADABD-E87D-4E36-8FA5-8F3949EB84D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "BehavioralDesignPatterns\ConsoleApp1\Strategy.csproj", "{199ADABD-E87D-4E36-8FA5-8F3949EB84D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "BehavioralDesignPatterns\Observer\Observer.csproj", "{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "BehavioralDesignPatterns\Observer\Observer.csproj", "{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "BehavioralDesignPatterns\Mediator\Mediator.csproj", "{113E74CD-636A-4163-852A-78AB4417C557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E74CD-636A-4163-852A-78AB4417C557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E74CD-636A-4163-852A-78AB4417C557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E74CD-636A-4163-852A-78AB4417C557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E74CD-636A-4163-852A-78AB4417C557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{44CEB5C0-D022-4BEB-9865-FF0F3148D1F9} = {D33A5134-69F0-47D0-87AB-8B57914156B4}
 		{199ADABD-E87D-4E36-8FA5-8F3949EB84D1} = {471A553C-1055-498D-887C-C7C7FD5950D9}
 		{CCFCB7B1-D73C-4C71-86B4-8860DE6A2DC6} = {471A553C-1055-498D-887C-C7C7FD5950D9}
+		{113E74CD-636A-4163-852A-78AB4417C557} = {471A553C-1055-498D-887C-C7C7FD5950D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F612ED52-1CB1-4573-B717-B459E2681C10}
