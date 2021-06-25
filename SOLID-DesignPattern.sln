@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "BehavioralDesig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "BehavioralDesignPatterns\TemplateMethod\TemplateMethod.csproj", "{9B1F16D7-B12A-4BCC-987A-506A45D64827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "BehavioralDesignPatterns\State\State.csproj", "{902ADA56-889C-42F7-ACD8-272E6CF97C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "BehavioralDesignPatterns\State\State.csproj", "{902ADA56-889C-42F7-ACD8-272E6CF97C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "BehavioralDesignPatterns\Memento\Memento.csproj", "{CD522255-077A-4D0B-8E82-C60F88E727F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "BehavioralDesignPatterns\Memento\Memento.csproj", "{CD522255-077A-4D0B-8E82-C60F88E727F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "StructuralDesignPatterns\Adapter\Adapter.csproj", "{F88C5990-069B-488F-880D-CE334533A4ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{CD522255-077A-4D0B-8E82-C60F88E727F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD522255-077A-4D0B-8E82-C60F88E727F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD522255-077A-4D0B-8E82-C60F88E727F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88C5990-069B-488F-880D-CE334533A4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C5990-069B-488F-880D-CE334533A4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88C5990-069B-488F-880D-CE334533A4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88C5990-069B-488F-880D-CE334533A4ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{9B1F16D7-B12A-4BCC-987A-506A45D64827} = {471A553C-1055-498D-887C-C7C7FD5950D9}
 		{902ADA56-889C-42F7-ACD8-272E6CF97C9D} = {471A553C-1055-498D-887C-C7C7FD5950D9}
 		{CD522255-077A-4D0B-8E82-C60F88E727F9} = {471A553C-1055-498D-887C-C7C7FD5950D9}
+		{F88C5990-069B-488F-880D-CE334533A4ED} = {DD7A13EC-566A-4EB8-90E5-01FA0976DBAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F612ED52-1CB1-4573-B717-B459E2681C10}
